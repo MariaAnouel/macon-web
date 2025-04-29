@@ -1,0 +1,283 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+nav {
+  background-color: #004b8d;
+  padding: 1rem;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: #dceeff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+  color: #004b8d;
+}
+
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+footer {
+  background-color: #004b8d;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+/* Style for the contact form */
+.contact-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-section .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-section .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.contact-section .form-control {
+  border-radius: 0.25rem;
+  padding: 10px;
+  font-size: 16px;
+}
+/* Style for the image in the Welcome section */
+.image-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.image-section img {
+  max-width: 40%; /* Ensure the image is responsive */
+  height: auto;
+  border-radius: 9px; /* Optional: Add border radius to the image */
+}
+#events {
+  background-color: #eef5f9;
+}
+
+.event-card {
+  background-color: #ffffff;
+  border-left: 5px solid #006699;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+/* Events section styling */
+#events {
+  background-color: #f8f9fa;
+}
+
+.event-card {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+/* ======= OUR MISSION SECTION ======= */
+section.our-mission {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.our-mission h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.our-mission p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* ======= CALL TO ACTION SECTION ======= */
+section.call-to-action {
+  background-color: #004085;
+  color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.call-to-action h4 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.call-to-action p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.call-to-action a.btn-primary {
+  background-color: #ffc107;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.call-to-action a.btn-primary:hover {
+  background-color: #e0a800;
+}
+.our-history {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.history-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.history-content img {
+  flex: 1 1 300px;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.history-text {
+  flex: 2 1 500px;
+}
+
+.history-text h2,
+.history-text h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.history-text p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+.services-hero {
+  background-color: #eef6f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.services-hero p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.service-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.service-card a {
+  display: inline-block;
+  color: #0077aa;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.service-card a:hover {
+  color: #004466;
+}
+
+
+
+
+
